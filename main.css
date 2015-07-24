@@ -2,7 +2,18 @@ body {
     padding-top: 80px;
     background: #222;
     color: #eee;
+    font-family: 'Open Sans', sans-serif;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+}
+
 #trailer .modal-dialog {
     margin-top: 200px;
     width: 640px;
