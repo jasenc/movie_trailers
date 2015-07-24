@@ -1,10 +1,10 @@
-#Import fresh_tomatoes.py in order to use the provided (and altered) website template
+# Import fresh_tomatoes.py in order to use the provided (and altered) website template
 import fresh_tomatoes
 
-#Import media.py in order to use the Movie Class
+# Import media.py in order to use the Movie Class
 import media
 
-#Instantiate Movie class with first movie drive
+# Instantiate Movie class with first movie drive
 drive = media.Movie('Drive',
                     'Ryan Gosling stars as a Los Angeles wheelman for hire, stunt driving for movie productions by day and steering getaway vehicles for armed heists by night.',
                     'https://upload.wikimedia.org/wikipedia/en/1/13/Drive2011Poster.jpg',
