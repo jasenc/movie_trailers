@@ -1,6 +1,8 @@
 body {
-        padding-top: 80px;
-    }
+    padding-top: 80px;
+    background: #222;
+    color: #eee;
+}
 #trailer .modal-dialog {
     margin-top: 200px;
     width: 640px;
@@ -21,8 +23,9 @@ body {
     padding-top: 20px;
 }
 .movie-tile:hover {
-    background-color: #EEE;
+    background-color: #eee;
     cursor: pointer;
+    color: #222;
 }
 .scale-media {
     padding-bottom: 56.25%;
