@@ -20,7 +20,7 @@ burn_after_reading = media.Movie('Burn After Reading',
                     'Aug 27, 2008')
 
 ex_machina = media.Movie('Ex Machina',
-            'A programmer at an internet-search giant, wins a competition to spend a week at the private mountain estate of the company\'s brilliant and reclusive CEO',
+            'A programmer at an internet-search giant, wins a competition to spend a week at the private mountain estate of the company\'s brilliant and reclusive CEO.',
             'http://t3.gstatic.com/images?q=tbn:ANd9GcQe8L-1PTMlUf-si2Oy6BTd9ZtbWH7BSRSF5k5JGNATxOHzyIdg',
             'https://www.youtube.com/watch?v=EoQuVnKhxaM',
             'Alex Garland',
