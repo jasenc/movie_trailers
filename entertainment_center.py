@@ -26,7 +26,7 @@ ex_machina = media.Movie('Ex Machina',
             'Alex Garland',
             'Apr 24, 2015')
 
-kingsman = media.Movie('Kingsman: The Secret Service',
+kingsman = media.Movie('Kingsman',
             'A super-secret spy organization that recruits an unrefined but promising street kid into the agency\'s ultra-competitive training program just as a global threat emerges from a twisted tech genius.',
             'http://t3.gstatic.com/images?q=tbn:ANd9GcTn2E6bqcLehK92h215qFnUpCYFqt02Iuwg-N4gVBmixzAXvGfZ',
             'https://www.youtube.com/watch?v=m4NCribDx4U',
@@ -41,10 +41,10 @@ interstellar = media.Movie('Interstellar',
                 'Nov 7, 2014')
 
 sin_city = media.Movie('Sin City',
-            'this violent crime noir paints the picture of the ultimate town without pity through the eyes of its roughest characters.',
+            'This violent crime noir paints the picture of the ultimate town without pity through the eyes of its roughest characters.',
             'http://ia.media-imdb.com/images/M/MV5BMTI2NjUyMDUyMV5BMl5BanBnXkFtZTcwMzU0OTkyMQ@@._V1_SX640_SY720_.jpg',
             'https://www.youtube.com/watch?v=r0PDOQglpDQ',
-            'Robert Rodriguez, Quentin Tarantino, Frank Miller (II), Frank Miller',
+            'Robert Rodriguez, Quentin Tarantino, Frank Miller',
             'Apr 1, 2005')
 
 
