@@ -1,10 +1,13 @@
 body {
     padding-top: 80px;
+
+    /* Adding Custom Body styles */
     background: #222;
     color: #eee;
     font-family: 'Open Sans', sans-serif;
 }
 
+/* Open Sans doesn't have a font 500 which Bootstrap uses */
 h1,
 h2,
 h3,
@@ -36,6 +39,7 @@ h6 {
 .movie-tile:hover {
     background-color: #eee;
     cursor: pointer;
+    /* Inverting color for readability */
     color: #222;
 }
 .scale-media {
