@@ -47,8 +47,7 @@ sin_city = media.Movie('Sin City',
             'Robert Rodriguez, Quentin Tarantino, Frank Miller',
             'Apr 1, 2005')
 
-# Compile list of movies to be displayed using fresh_tomatoes.py
-movies = [drive, burn_after_reading, ex_machina, kingsman, interstellar, sin_city]
+# Use fresh_tomatoes.py to render web page using automatically generated list from the Movie class.
+fresh_tomatoes.open_movies_page(media.Movie.movies)
 
-# Use fresh_tomatoes.py to render web page
-fresh_tomatoes.open_movies_page(movies)
+print movies
