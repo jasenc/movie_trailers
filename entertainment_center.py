@@ -59,7 +59,7 @@ interstellar = media.Movie('Interstellar',
 sin_city = media.Movie('Sin City',
             'This violent crime noir paints the picture of the ultimate town \
             without pity through the eyes of its roughest characters.',
-            'http://ia.media-imdb.com/images/M/MV5BMTI2NjUyMDUyMV5BMl5BanBnXkFtZTcwMzU0OTkyMQ@@._V1_SX640_SY720_.jpg',  # noqa
+            'https://upload.wikimedia.org/wikipedia/en/9/9e/Sincitypostercast.jpg',  # noqa
             'https://www.youtube.com/watch?v=r0PDOQglpDQ',
             'Robert Rodriguez, Quentin Tarantino, Frank Miller',
             'Apr 1, 2005')
