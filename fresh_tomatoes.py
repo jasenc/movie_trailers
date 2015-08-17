@@ -4,11 +4,11 @@ import re
 
 # Styles and scripting for the page.
 main_page_head = '''
-<head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
     <meta charset="utf-8">
     <title>Jasen's Top Movies</title>
-
-    <!-- Bootstrap 3 -->
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
@@ -16,13 +16,11 @@ main_page_head = '''
     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
     <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
     <script src="script.js"></script>
-</head>
+  </head>
 '''
 
 # The main page layout and title bar.
 main_page_content = '''
-<!DOCTYPE html>
-<html lang="en">
   <body>
     <!-- Trailer Video Modal -->
     <div class="modal" id="trailer">
@@ -56,13 +54,13 @@ main_page_content = '''
 
 # A single movie entry html template.
 movie_tile_content = '''
-<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer">
-    <img src="{poster_image_url}" width="220" height="342">
-    <h2>{movie_title}</h2>
-    <h5>{movie_release}</h5>
-    <h6>{movie_director}</h6>
-    <p>{movie_synopsis}</p>
-</div>
+      <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer">
+        <img src="{poster_image_url}" width="220" height="342">
+        <h2>{movie_title}</h2>
+        <h5>{movie_release}</h5>
+        <h6>{movie_director}</h6>
+        <p>{movie_synopsis}</p>
+      </div>
 '''
 
 
@@ -75,7 +73,7 @@ def create_movie_tiles_content(movies):
                                      movie.trailer_youtube_url)
         youtube_id_match = (youtube_id_match or
                             re.search(r'(?<=be/)[^&#]+',
-                                movie.trailer_youtube_url))
+                                      movie.trailer_youtube_url))
         trailer_youtube_id = (youtube_id_match.group(0) if
                               youtube_id_match else None)
 
