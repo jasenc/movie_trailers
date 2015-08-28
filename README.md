@@ -6,7 +6,7 @@ Using Python and server-side code this application dynamically generates a web p
 * `entertainment_center.py`: Holds all of the data necessary for each movie object.
 * `fresh_tomatoes.py`: Dynamically outputs an `index.html` file that references `main.css` and `script.js` after looping through each movie object. Additionally it utilizes the `webbrowser`, `os`, and `re` libraries found in Python.
 
-A preview can be found at [blog.jasencarroll.com/movie_trailers](http://blog.jasencarroll.com/movie_trailers/)
+A preview can be found at [jasencarroll.com/movie_trailers](http://www.jasencarroll.com/movie_trailers/)
 
 
 ## Installation
