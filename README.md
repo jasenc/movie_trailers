@@ -28,5 +28,5 @@ To change the movies displayed on the webpage:
 ## Author
 
 Jasen Carroll  
-jasen.c8@gmail.com  
+jasen.c@icloud.com  
 July 24th, 2015
